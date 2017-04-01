@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.raphets.todayinhistory">
+    package="org.raphets.todayinhistoryfuxia">
 
     <!-- 网络访问权限 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
-        android:name=".MyApp"
+        android:name="org.raphets.todayinhistoryfuxia.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
@@ -31,7 +31,7 @@
 
 
         <activity
-            android:name=".ui.activity.WelcomeActivity"
+            android:name="org.raphets.todayinhistoryfuxia.ui.activity.WelcomeActivity"
             android:configChanges="keyboard|keyboardHidden|screenSize|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/WelcomeActivityTheme">
@@ -41,10 +41,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.MainActivity" />
-        <activity android:name=".ui.activity.HistoryDetailActivity" />
-        <activity android:name=".ui.activity.CalendarActivity" />
-        <activity android:name=".ui.activity.GrilDetailActivity" />
+        <activity android:name="org.raphets.todayinhistoryfuxia.ui.activity.MainActivity" />
+        <activity android:name="org.raphets.todayinhistoryfuxia.ui.activity.HistoryDetailActivity" />
+        <activity android:name="org.raphets.todayinhistoryfuxia.ui.activity.CalendarActivity" />
+        <activity android:name="org.raphets.todayinhistoryfuxia.ui.activity.GrilDetailActivity" />
 
     </application>
 

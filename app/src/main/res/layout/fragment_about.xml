@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.raphets.todayinhistory.ui.AboutFragment">
+    tools:context="org.raphets.todayinhistoryfuxia.ui.AboutFragment">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="作者：RaphetS" />
+                    android:text="作者：fuyi" />
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -56,7 +56,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="联系作者：raphets@126.com"
+                    android:text="联系作者：fuyinb@163.com"
                     android:textSize="16sp" />
             </android.support.v7.widget.CardView>
         </LinearLayout>
